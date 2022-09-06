@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+@-webkit-keyframes my{
+    0%{left:100%;}
+}
+
+@-webkit-keyframes my1{
+     100%{left: 100%;}
+ }
+
+
+.container{
+    width: 100%;
+}
+
+
+.top-header{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    
+}
+
+.top-header .right{
+    width: 400px;
+    height: 30px;
+    float: right;
+    margin-right: 40px;
+    
+}
+
+.top-header .right .sabad{
+    float: right;
+    margin-right: 14px;
+}
+
+.top-header .right .zang{
+    float: left;
+    margin-left: 5px;
+}
+
+.top-header .right select.eBay {
+    float: left;
+    margin-left: 20px;
+    margin-top: 4px;
+    border: 0px;
+    
+    
+}
+
+.top-header .right .Watchlist{
+    float: left;
+    margin-left: 30px;
+    margin-top: 4px;
+    border: 0px;
+}
+
+.top-header .right .to{
+    float: left;
+    margin-left: 40px;
+    margin-top: 3px;
+    border: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.top-header .right .to:hover{
+    color:blue;
+}
+
+
+.top-header .right .ship{
+    float: left;
+    margin-left: 70;
+}
+
+
+
+
+
+.top-header .left{
+    margin-left: 45px;
+    font-size: 14px;
+    float: left;
+    margin-top: 7px;
+    
+}
+.top-header .left .daily{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.top-header .left .daily:hover{
+    
+    text-decoration: underline;
+}
+
+.top-header .left .help{
+
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.top-header .left .help:hover{
+    text-decoration: underline;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header img{
+    float: left;
+    margin-top: 10px;
+    
+}
+ 
+.header select.Shop{
+    margin-top: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0px;
+    float: left;
+}
+
+.header select.Shop:hover{
+    color:blue;
+}
+
+.header form .search{
+    width: 670px;
+    height: 40px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #00A;
+    border-right: 0px solid gray;
+}
+.header .Category{
+    height: 40px;
+    color: gray;
+    border: 2px solid #00A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header form .button{
+    height: 40px;
+    width: 150px;
+    background-color: #06F;
+}
+
+.header form .button:hover{
+    
+    background-color: #02F;
+}
+.header form{
+    float: left;
+}
+
+.header a{
+    float: left;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    color:gray;
+}
+
+.header a:hover{
+    coler:black;
+    font-size: 17px;
+}
+/*   Menu design ===================================================== */
+.menu{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    padding-top: 7px;
+    background-color: lightblue;
+    
+}
+
+
+.menu ul{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    
+    
+}
+.menu ul li{
+    display: inline;
+    padding-left: 35px;
+    border: 1px solid blue          ;
+    background-color: gray;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: blue;
+    text-align: center;
+
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 23px;
+    
+}
+
+.menu ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.Gif{
+    width: 100%;
+    height: 350px;
+    border-bottom: 1px solid lightgray;
+    
+}
+.body{
+    width: 100%;
+    min-height: 700px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.body div h2{
+    margin-top: 70px;
+    margin-left: 50px;
+    float: left;
+}
+
+.body div span.see a{
+    float: left;
+    margin-top: 74px;
+    font-size: 18px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    border-left: 1px solid gray;
+    padding-left: 15px;
+}
+.body div span.picture img{
+    margin-top: 70px;
+    padding-left: 8px;
+}
+
+.body div.content{
+   
+    float: left;
+}
+
+.body .content .pic1{
+    margin-top: 40px;
+    margin-left: 30px;
+    float: left;
+}
+.body .content .pic1 a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content .pic1 a:hover{
+    color: blue;
+}
+
+.body .content .pic2 {
+    float: left;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.body .content .pic2 a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content .pic2 a:hover{
+    color: blue;
+}
+
+.body .content .pic3{
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.body .content .pic3 a{
+    margin-left: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content .pic3 a:hover{
+    color: blue;
+}
+
+.body .content .pic4{
+    float: left;
+    margin-top: 53px;
+    margin-left: 18px;
+}
+.body .content .pic4 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 55px;
+}
+.body .content .pic4 a:hover{
+    color: blue;
+}
+
+.body .content .pic5{
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.body  .content .pic5 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 55px;
+    
+}
+.body .content .pic5 a:hover{
+    color: blue;
+}
+.body .content .pic6
+{
+    float: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.body .content .pic6 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 55px;
+}
+.body .content .pic6 a:hover{
+    color: blue;
+}
+.body .content .pic7{
+    
+    border: 1px solid blue;
+}
+
+
+.body .content1{  
+    float: left;
+}
+
+/* content1 ! --------------------------------------------*/
+
+.body .content1 .pic10{
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+}
+.body .content1 .pic10 a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content1 .pic10 a:hover{
+    color: blue;
+}
+
+.body .content1 .pic11 {
+    float: left;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+
+.body .content1 .pic11 a{
+    margin-left: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content .pic11 a:hover{
+    color: blue;
+}
+
+.body .content1 .pic8{
+    float: left;
+    margin-left: 30px;
+    margin-top: 32px;
+}
+
+.body .content1 .pic8 a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.body .content1 .pic8 a:hover{
+    color: blue;
+}
+
+.body .content1 .pic9{
+    float: left;
+    margin-top: 35px;
+}
+.body .content1 .pic9 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 27px;
+}
+.body .content1 .pic9 a:hover{
+    color: blue;
+}
+
+.body .content1 .pic12{
+    float: left;
+    margin-top: 32px;
+    margin-left: 30px;
+}
+.body  .content1 .pic12 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 33px;
+    
+}
+.body .content1 .pic12 a:hover{
+    color: blue;
+}
+.body .content1 .pic13
+{
+    float: left;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+.body .content1 .pic13 a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+.body .content1 .pic13 a:hover{
+    color: blue;
+}
+
+
+/* footer ----------------------------------*/
+
+.footer{
+    
+    width: 100%;
+    height: 430px;
+    float: left;
+}
+
+.footer table
+{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer table tr td a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+.footer table tr td{
+    padding-top: 15px;
+
+}
+
+.footer table tr td:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer table tr th a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer table tr th a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+.footer table tr th a.buy{
+    margin-right: 110px;
+    
+}
+
+.footer table tr th a.stay{
+    margin-left: 50px;
+}
+
+.footer table tr th a.about{
+    margin-right: 135px;
+}
+
+.footer table tr th a.tools{
+    margin-left: 48px;
+}
+
+.footer table tr th a.community{
+    margin-right: 45px;
+}
+.footer table tr th a.eBay{
+    margin-right: 160px;
+}
+
+
+/*
+.Gif img.one{
+	position:absolute;
+	Left:0;
+	-webkit-animation:my 4s;
+	-webkit-animation-iteration-count:infinite;
+}
+.Gif img.two{
+
+    position:absolute;
+	left:0;
+	-webkit-animation:my1 4s;
+	-webkit-animation-iteration-count:infinite;
+}
+
+*/
+
+
